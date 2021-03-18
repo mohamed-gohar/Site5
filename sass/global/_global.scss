@@ -1,0 +1,31 @@
+:root {
+  --oswald-font: "Oswald", sans-serif;
+  --roboto-font: "Roboto Condensed", sans-serif;
+}
+html {
+  font-size: 16px;
+}
+ul {
+  margin-bottom: 0;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ff1737 #ddd;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff1737;
+  height: 20%;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+}
